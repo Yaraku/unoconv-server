@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/alphakevin/unoconv-server#readme",
   "dependencies": {
+    "archiver": "^3.0.0",
     "async-middleware": "^1.2.1",
     "content-disposition": "^0.5.2",
     "express": "^4.16.2",
