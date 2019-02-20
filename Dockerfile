@@ -1,8 +1,7 @@
 FROM telemark/docker-node-unoconv
 
-RUN git clone https://github.com/Yaraku/unoconv-server.git app
-
 WORKDIR /app
+COPY . .
 
 ENV HOSTNAME 0.0.0.0
 ENV PORT 4000
